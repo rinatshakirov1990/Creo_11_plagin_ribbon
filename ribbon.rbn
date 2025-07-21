@@ -1,0 +1,3 @@
+START_GROUP MyRibbonGroup
+  ADD_BUTTON MyButton
+END_GROUP

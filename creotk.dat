@@ -1,0 +1,7 @@
+name        ProTOOLKITInstall
+startup     dll
+exec_file   C:\creo_11_test_plagin\Pro\Pro\pt_inst_test.dll
+text_dir    C:\creo_11_test_plagin\Pro\Pro\text
+allow_stop  true
+delay_start false
+end

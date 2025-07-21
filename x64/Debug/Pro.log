@@ -1,0 +1,20 @@
+﻿  
+  ��������� ��������� ������������ �������� Microsoft (R), ������ 14.43.34810.0
+  (C) ���������� ���������� (Microsoft Corporation).  ��� ����� ��������.
+  
+  	cl -c -GS -fp:precise -D_WSTDIO_DEFINED -I. -IC:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/protk_appls/includes -IC:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/includes -DPRO_MACHINE=36 -DPRO_OS=4 TestInstall.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.43.34810 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  TestInstall.c
+  Start at `date`
+  PROTOOL_SRC = C:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit
+  PROTOOL_SYS = C:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/x86e_win64
+  	link /subsystem:console /machine:amd64 /debug:none -out:pt_inst_test.dll /dll @longline.list
+  Microsoft (R) Incremental Linker Version 14.43.34810.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  TestInstall.obj TestError.obj TestRunmode.obj UtilString.obj PTApplsUnicodeUtils.obj C:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/x86e_win64/obj/protk_dll_NU.lib C:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/x86e_win64/obj/ucore.lib C:/PROGRA~1/PTC/CREO11~1.0/Common~1/protoolkit/x86e_win64/obj/udata.lib libcmt.lib kernel32.lib user32.lib wsock32.lib advapi32.lib mpr.lib winspool.lib netapi32.lib psapi.lib gdi32.lib shell32.lib comdlg32.lib ole32.lib ws2_32.lib 
+     Создается библиотека pt_inst_test.lib и объект pt_inst_test.exp
+  Finished at `date`
+  	del TestInstall.obj TestError.obj TestRunmode.obj UtilString.obj PTApplsUnicodeUtils.obj
